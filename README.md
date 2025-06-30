@@ -28,7 +28,7 @@
 
 1.  在左侧菜单中，转到 **Workers & Pages**。
 2.  点击 **创建应用程序** -> **创建 Worker**。
-3.  给您的 Worker 起个名字（例如 `edge-gallery-worker`），然后点击 **部署**。
+3.  给您的 Worker 起个名字（例如 `edge-gallery-worker`），选择hello work模板，点击部署，然后修改代码，把把worker.js文件复制进去部署即可。
 
 ### 第 3 步：配置 Worker
 
