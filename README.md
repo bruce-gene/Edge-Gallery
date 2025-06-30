@@ -1,10 +1,13 @@
 # Edge-Gallery 🖼️ - 单文件版
 
-一个极致简洁、安全、运行在单个 Cloudflare Worker 上的私人图床/相册。所有代码都在一个 `index.js` 文件中，部署极其简单。
+一个极致简洁、安全、运行在单个 Cloudflare Worker 上的私人图床/相册。所有代码都在一个 `worker.js` 文件中，部署极其简单。
+
+![image](https://github.com/user-attachments/assets/ad30e8ca-5acd-445c-b825-d27566cf77bb)
+
 
 ## ✨ 功能特性
 
--   **极致简单**: 整个应用就是一个 `index.js` 文件。
+-   **极致简单**: 整个应用就是一个 `worker.js` 文件。
 -   **安全登录**: 使用密码保护，会话通过安全的 `HttpOnly` Cookie 管理。
 -   **层级视图**: 像桌面文件浏览器一样逐级进入文件夹。
 -   **批量上传**: 支持文件和整个文件夹的上传。
